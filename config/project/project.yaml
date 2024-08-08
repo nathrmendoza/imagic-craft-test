@@ -1,0 +1,22 @@
+dateModified: 1723083762
+email:
+  fromEmail: sample@email.com
+  fromName: 'Imagic Craft Site'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    2d1f5733-3df1-4570-a0ed-af51908a8a2b: 'Imagic Craft Site' # Imagic Craft Site
+    7d7aec54-3b8c-4f3c-a18c-35883a7ee404: Common # Common
+    8eb5908a-32aa-46ea-a516-6e2257cf2fed: 'Imagic Craft Site' # Imagic Craft Site
+system:
+  edition: solo
+  live: true
+  name: 'Imagic Craft Site'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
