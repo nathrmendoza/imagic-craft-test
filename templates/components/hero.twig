@@ -1,0 +1,20 @@
+<section class="hero">
+    <div class="container">
+        {% set image = block.heroImage.one() %}
+        {% if image|length %}
+        <div class="image-container">
+            <img src="{{ image.url }}" alt="{{ image.alt | default('Hero Image')}}" width="1920" height="auto">
+        </div>
+        {% endif %}
+        {% if block.heading is not null or block.shortText is not null %}
+        <div class="text-above">
+            {% if block.heading is not null %}
+                <h1>{{block.heading}}</h1>
+            {% endif %}
+            {% if block.shortText is not null %}
+                <p>{{block.shortText}}</p>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</section>

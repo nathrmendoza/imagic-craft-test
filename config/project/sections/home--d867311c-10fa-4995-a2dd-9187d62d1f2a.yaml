@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  8eb5908a-32aa-46ea-a516-6e2257cf2fed: # Imagic Craft Site
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/home.twig
+    uriFormat: __home__
+type: single

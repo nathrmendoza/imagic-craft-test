@@ -1,40 +1,52 @@
-field: e0543c81-6cc6-43e8-bddf-f97237cfcdf4 # Components
+field: 1cb1883a-4c9d-4d32-9386-210a71fbe719 # Components
 fieldLayouts:
-  d00a0ac9-3f16-496f-8ed7-3438f4ac6af9:
+  14a9a35a-adae-4b74-94a8-189f36d98839:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 1fc26d23-1a4a-4bae-a23c-2becbeec97ef # Heading
+            fieldUid: ab249b3f-99eb-4e73-9dcf-1c98e3914240 # Heading
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 561ae88b-4ddf-40c8-aac8-83f231b412e0
+            uid: 5b83baf0-def4-4731-89fa-2582daf192d8
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 4fb76827-e92c-489d-a8cc-f2bc2a60be8a # Hero Image
+            fieldUid: b1f2fd65-ae22-447c-9e55-00ee1d289053 # Short Description
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 40564a18-1660-44ca-9c20-b14ccbd8d7ca
+            uid: 3307f79e-3bc0-4915-ad19-b9b3326f39ac
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d6dd6e70-c071-45bb-867c-42d874d4b3e2 # Images
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3bd981f3-795e-4c73-93ec-26eda9eae618
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 81420a66-ceab-4cf5-836c-b7445f3e5673
+        uid: a3bbca68-adc3-4ad2-a307-cf889f9429e0
         userCondition: null
 fields:
-  1fc26d23-1a4a-4bae-a23c-2becbeec97ef: # Heading
-    columnSuffix: fszitobc
+  ab249b3f-99eb-4e73-9dcf-1c98e3914240: # Heading
+    columnSuffix: oczjoork
     contentColumnType: text
     fieldGroup: null
     handle: heading
@@ -43,7 +55,7 @@ fields:
     searchable: false
     settings:
       byteLimit: null
-      charLimit: null
+      charLimit: 500
       code: false
       columnType: null
       initialRows: 4
@@ -53,13 +65,33 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  4fb76827-e92c-489d-a8cc-f2bc2a60be8a: # Hero Image
+  b1f2fd65-ae22-447c-9e55-00ee1d289053: # Short Description
+    columnSuffix: qmeakwxi
+    contentColumnType: text
+    fieldGroup: null
+    handle: shortDescription
+    instructions: null
+    name: 'Short Description'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 500
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d6dd6e70-c071-45bb-867c-42d874d4b3e2: # Images
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: heroImage
+    handle: images
     instructions: null
-    name: 'Hero Image'
+    name: Images
     searchable: false
     settings:
       allowSelfRelations: false
@@ -72,7 +104,7 @@ fields:
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: 1
+      maxRelations: null
       minRelations: null
       previewMode: full
       restrictFiles: true
@@ -80,7 +112,7 @@ fields:
       restrictedDefaultUploadSubpath: null
       restrictedLocationSource: 'volume:e52503d0-9bc0-4f71-bcdc-23e8f53a1e58' # Images
       restrictedLocationSubpath: null
-      selectionLabel: 'Add Image'
+      selectionLabel: null
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
@@ -92,6 +124,6 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-handle: hero
-name: Hero
-sortOrder: 1
+handle: imageCarousel
+name: 'Image Carousel'
+sortOrder: 2

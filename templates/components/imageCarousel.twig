@@ -1,0 +1,19 @@
+<section class="image-carousel">
+    <div class="container">
+        {% if block.heading is not null %}
+            <h2>{{block.heading}}</h2>
+        {% endif %}
+        {% if block.shortDescription is not null %}
+            <p class="rte">{{block.shortDescription}}</p>
+        {% endif %}
+        {% if block.images is not null %}
+        <div class="image-carousel">
+            {% for image in block.images %}
+                <div class="slide">
+                    <img src="{{ image.url }}" alt="{{ image.alt | default('Slide Image')}}" width="540" height="auto">
+                </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</section>

@@ -1,0 +1,9 @@
+{# for component matrix field, make sure filename similar to entry handle #}
+
+{% if entry is not null %}
+    {% if entry.components is defined %}
+        {% for block in entry.components %}
+            {% include ['components/' ~ block.type ~ '.twig', 'components/fallback'] ignore missing with {block: block} %}
+        {% endfor %}
+    {% endif %}
+{% endif %}

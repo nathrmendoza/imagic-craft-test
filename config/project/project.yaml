@@ -1,4 +1,4 @@
-dateModified: 1723087194
+dateModified: 1723089018
 email:
   fromEmail: sample@email.com
   fromName: 'Imagic Craft Site'
@@ -8,25 +8,25 @@ fs:
     hasUrls: true
     name: Uploads
     settings:
-      path: '@webroot/uploads'
+      path: uploads
     type: craft\fs\Local
-    url: '@webroot/uploads'
+    url: uploads
 meta:
   __names__:
-    1fc26d23-1a4a-4bae-a23c-2becbeec97ef: Heading # Heading
+    1cb1883a-4c9d-4d32-9386-210a71fbe719: Components # Components
     2d1f5733-3df1-4570-a0ed-af51908a8a2b: 'Imagic Craft Site' # Imagic Craft Site
-    2f5c6407-c927-4699-9019-926e3366d59c: Testimonials # Testimonials
-    4fb76827-e92c-489d-a8cc-f2bc2a60be8a: 'Hero Image' # Hero Image
-    5a1c3767-0765-471c-9fda-c8bd81ea2a1e: Description # Description
-    5e808bc2-f9bf-4f2b-9a3d-2ebd6a9033bc: 'Image Carousel' # Image Carousel
     7d7aec54-3b8c-4f3c-a18c-35883a7ee404: Common # Common
+    8e0a369a-d9c6-4dbc-b572-9575a85b1dac: 'Short Text' # Short Text
     8eb5908a-32aa-46ea-a516-6e2257cf2fed: 'Imagic Craft Site' # Imagic Craft Site
-    98789f3e-71aa-4901-8ec0-89c42a3de2ac: Hero # Hero
-    3025674e-cc42-4b9c-878b-aa87cf25e58a: Image # Image
-    a8a0474b-cccf-4f66-aa74-6b76378579da: Heading # Heading
-    a7328e3a-295f-4813-af24-0f238b48c8d8: 'Short Description' # Short Description
-    d8b8c667-2c93-41af-8017-837fe0eceeeb: Heading # Heading
-    e0543c81-6cc6-43e8-bddf-f97237cfcdf4: Components # Components
+    22e61d75-7f6d-4940-a410-3021805e00ba: Home # Home
+    ab249b3f-99eb-4e73-9dcf-1c98e3914240: Heading # Heading
+    ac60f42c-c1aa-41be-a488-4d28c6b6ec1f: 'Hero Image' # Hero Image
+    acaeab4a-c75b-4a4b-8b0d-ce635d649fb2: 'Image Carousel' # Image Carousel
+    b1f2fd65-ae22-447c-9e55-00ee1d289053: 'Short Description' # Short Description
+    b17e3fa4-b66f-42e0-89d3-cc3f7de93740: Heading # Heading
+    d6dd6e70-c071-45bb-867c-42d874d4b3e2: Images # Images
+    d867311c-10fa-4995-a2dd-9187d62d1f2a: Home # Home
+    dfe63ba6-923e-4be5-91f3-74717e874145: Hero # Hero
     e52503d0-9bc0-4f71-bcdc-23e8f53a1e58: Images # Images
 system:
   edition: solo
