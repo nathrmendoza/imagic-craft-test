@@ -1,0 +1,97 @@
+field: e0543c81-6cc6-43e8-bddf-f97237cfcdf4 # Components
+fieldLayouts:
+  d00a0ac9-3f16-496f-8ed7-3438f4ac6af9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1fc26d23-1a4a-4bae-a23c-2becbeec97ef # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 561ae88b-4ddf-40c8-aac8-83f231b412e0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4fb76827-e92c-489d-a8cc-f2bc2a60be8a # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40564a18-1660-44ca-9c20-b14ccbd8d7ca
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 81420a66-ceab-4cf5-836c-b7445f3e5673
+        userCondition: null
+fields:
+  1fc26d23-1a4a-4bae-a23c-2becbeec97ef: # Heading
+    columnSuffix: fszitobc
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  4fb76827-e92c-489d-a8cc-f2bc2a60be8a: # Hero Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroImage
+    instructions: null
+    name: 'Hero Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:e52503d0-9bc0-4f71-bcdc-23e8f53a1e58' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:e52503d0-9bc0-4f71-bcdc-23e8f53a1e58' # Images
+      restrictedLocationSubpath: null
+      selectionLabel: 'Add Image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:e52503d0-9bc0-4f71-bcdc-23e8f53a1e58' # Images
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: hero
+name: Hero
+sortOrder: 1
