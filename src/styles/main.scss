@@ -1,3 +1,12 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
-//overrides
+//overrides / globals
+.def-container {
+    width: 100%;
+    margin: 0;
+    padding: 0 32px;
+}
+
+//components
+@import './components/hero';
+@import './components/imageCarousel';

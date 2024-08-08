@@ -1,17 +1,34 @@
 import $ from 'jquery'
 
 const ImageSlider = () => {
-    if ($('.image-carousel').length <= 0) return null;
+    if ($('.image-slick').length <= 0) return null;
     
-    const $slider = $('.image-carousel');
+    const $slider = $('.image-slick');
     const slickOptions = {
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        dots: false,
+        dots: true,
         arrows: false,
-        autoplaySpeed: 3000,
-        speed: 1000
+        autoplaySpeed: 2000,
+        speed: 1000,
+        rows: 0,
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     }
 
     $slider.slick(slickOptions);

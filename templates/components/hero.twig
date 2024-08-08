@@ -1,5 +1,5 @@
 <section class="hero">
-    <div class="container">
+    <div class="def-container">
         {% set image = block.heroImage.one() %}
         {% if image|length %}
         <div class="image-container">
@@ -12,7 +12,7 @@
                 <h1>{{block.heading}}</h1>
             {% endif %}
             {% if block.shortText is not null %}
-                <p>{{block.shortText}}</p>
+                <p class="rte">{{block.shortText}}</p>
             {% endif %}
         </div>
         {% endif %}

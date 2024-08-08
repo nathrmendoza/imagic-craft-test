@@ -1,0 +1,54 @@
+.hero {
+    width: 100%;
+    position: relative;
+    margin: 0 0 72px;
+    .def-container {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 0!important;
+    }
+    .image-container {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    .text-above {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        padding: 40px 32px;
+        background: rgba(0,0,0,0.25);
+        @media only screen and (max-width: 800px ) {
+            padding: 0 16px!important;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin: 0 0 32px;
+        }
+        .rte {
+            text-align: center;
+            color: #fff;
+            max-width: 640px;
+        }
+    }
+}
